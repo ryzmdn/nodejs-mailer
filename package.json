@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-mailer",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "expressjs",
+    "nodemailer",
+    "backend",
+    "form",
+    "mailform"
+  ],
+  "author": "Riz",
+  "license": "ISC",
+  "description": "This is my dummy project, you can use it for personal or commercial purposes according to the terms in the license.",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "nodejs-mailer": "file:",
+    "nodemailer": "^6.9.15"
+  }
+}
